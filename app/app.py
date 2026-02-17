@@ -37,8 +37,9 @@ st.markdown("""
 # ---------------------------
 # LOAD MODEL
 # ---------------------------
-model = pickle.load(open("../models/model.pkl", "rb"))
-vectorizer = pickle.load(open("../models/vectorizer.pkl", "rb"))
+model = pickle.load(open("models/model.pkl", "rb"))
+vectorizer = pickle.load(open("models/vectorizer.pkl", "rb"))
+
 
 # ---------------------------
 # TITLE
